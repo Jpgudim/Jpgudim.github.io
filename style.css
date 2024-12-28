@@ -45,6 +45,25 @@ nav {
     margin-right: auto;
 }
 
+.social_links {
+    display: block;
+    margin-top: 10%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.social_links a {
+    text-decoration: none;
+}
+
+img {
+    width: 25px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+
 h1 {
     font-size: 32px;
 }
