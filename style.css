@@ -43,6 +43,7 @@ nav {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+    text-decoration: none;
 }
 
 .social_links {
@@ -58,7 +59,7 @@ nav {
 }
 
 img {
-    width: 25px;
+    width: 28px;
     margin-left: 5px;
     margin-right: 5px;
 }
