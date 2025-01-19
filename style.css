@@ -6,7 +6,7 @@ body {
     background-color: rgb(195, 195, 195);
     display: flex;
     min-height: 100vh;
-    font-family: helvetica, verdana;
+    font-family: consolas, helvetica, verdana;
 }
 
 nav {
@@ -45,6 +45,17 @@ nav {
     margin-right: auto;
     text-decoration: none;
     font-size: 17px;
+}
+
+.links a::before {
+    content: ">";
+    position: relative;
+    right: 8px;
+    visibility: hidden;
+}
+
+.links a.active::before {
+    visibility: visible;
 }
 
 .social_links {
