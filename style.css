@@ -11,13 +11,13 @@ body {
 
 nav {
     background-color: rgb(32, 255, 188);
-    width: 30%;
-    min-width: 270px;
-    max-width: 50%;
     height: 100vh;
+    position: relative;
     left: 0;
     top: 0;
-    position: relative;
+
+    /*mobile*/
+    width: 30%;
 }
 
 .nametitle {
@@ -33,16 +33,20 @@ nav {
     margin-top: 30%;
     text-align: center;
     font-weight: normal;
-    font-size: 40px;
     margin-bottom:20px;
-    
+
+    /* mobile */
+    font-size: 16px;
 }
 
 .description {
     margin-top: 0;
     text-align: left;
-    width: 264px;
     align-self: center;
+
+    /* mobile */
+    width: 100px;
+    font-size: 12px;
 }
 
 .links {
@@ -55,22 +59,26 @@ nav {
     margin-bottom: 25px;
     background-color: transparent;
     border-radius: 8px;
-    border: 2px, solid, black;
-    width: 200px;
-    height: 35px;
-    line-height: 35px;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
     text-decoration: none;
-    font-size: 17px;
+    
+    /* mobile */
+    width: 95px;
+    height: 25px;
+    font-size: 12px;
+    line-height: 25px;
+    border: 1px, solid, black;
 }
 
 .links a::before {
     content: ">";
     position: relative;
-    right: 8px;
     visibility: hidden;
+
+    /* mobile */
+    right: 4px;
 }
 
 .links a.active::before {
@@ -156,4 +164,36 @@ h2 {
     font-size: 15px;
     color: #555555;
     margin-bottom: 50px;
+}
+
+
+/* media query for desktop */
+@media (min-width: 480px){
+    
+    nav {
+    width: 30%;
+    min-width: 270px;
+    max-width: 50%;
+    }
+
+    .name {
+        font-size: 40px;
+    }
+
+    .description {
+    width: 264px;
+    font-size: 16px;
+    }
+
+    .links a {
+        width: 200px;
+        height: 35px;
+        font-size: 17px;
+        line-height: 35px;
+        border: 2px, solid, black;
+    }
+
+    .links a::before {
+        right: 8px;
+    }
 }
