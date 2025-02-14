@@ -12,6 +12,7 @@ body {
 nav {
     background-color: rgb(32, 255, 188);
     height: 100vh;
+    height: 100dvh;
     position: relative;
     left: 0;
     top: 0;
@@ -56,7 +57,6 @@ nav {
 .links a {
     display: block;
     color: black;
-    margin-bottom: 25px;
     background-color: transparent;
     border-radius: 8px;
     text-align: center;
@@ -70,6 +70,7 @@ nav {
     font-size: 12px;
     line-height: 25px;
     border: 1px, solid, black;
+    margin-bottom: 30px;
 }
 
 .links a::before {
@@ -91,6 +92,9 @@ nav {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+
+    /* mobile */
+    margin-top: 40%;
 }
 
 .social_links a {
@@ -111,6 +115,9 @@ h1 {
 h2 {
     padding-left: 20%;
     padding-top: 10px;
+    
+    /* mobile */
+    font-size: 20px;
 }
 
 .grayspace {
@@ -122,14 +129,18 @@ h2 {
     padding-left: 20%;
     padding-right: 20%;
     padding-top: 25px;
-    font-size: 17px;
+
+    /* mobile */
+    font-size: 15px;
+
 }
 
 .jobTitle {
     font-weight: bold;
-    font-size: 18px;
     margin-bottom: 0;
 
+    /* mobile */
+    font-size: 16px;
 }
 
 .companyDetails {
@@ -141,6 +152,9 @@ h2 {
 .company {
     font-size: 17px;
     margin-top: 10px;
+
+    /* mobile */
+    font-size: 15px;
 }
 
 .date {
@@ -152,18 +166,25 @@ h2 {
 .jobDescription {
     font-size: 15px;
     margin-top: 8px;
+
+    /* mobile */
+    font-size: 13px;
 }
 
 .projectTitle {
     font-weight: bold;
     color: black;
-    font-size: 17px;
+
+    /* mobile */
+    font-size: 15px;
 }
 
 .projectDescription {
-    font-size: 15px;
     color: #555555;
     margin-bottom: 50px;
+
+    /* mobile */
+    font-size: 13px;
 }
 
 
@@ -191,9 +212,42 @@ h2 {
         font-size: 17px;
         line-height: 35px;
         border: 2px, solid, black;
+        margin-bottom: 25px;
     }
 
     .links a::before {
         right: 8px;
+    }
+
+    .maintext {
+        font-size: 17px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    .jobTitle {
+        font-size: 18px;
+    }
+
+    .company {
+        font-size: 17px;
+    }
+
+    .jobDescription{
+        font-size: 15px;
+    }
+
+    .projectTitle{
+    font-size: 17px;
+    }
+
+    .projectDescription{
+        font-size: 15px;
+    }
+
+    .social_links{
+        margin-top: 10%;
     }
 }
