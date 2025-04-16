@@ -6,7 +6,7 @@ body {
     background-color: rgb(195, 195, 195);
     display: flex;
     min-height: 100vh;
-    font-family: consolas, helvetica, verdana;
+    font-family: consolas, menlo, helvetica, verdana;
 }
 
 nav {
@@ -71,7 +71,7 @@ nav {
     height: 25px;
     font-size: 12px;
     line-height: 25px;
-    border: 1px, solid, black;
+    border: 2px, solid, black;
     margin-bottom: 30px;
 }
 
