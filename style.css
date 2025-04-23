@@ -5,12 +5,13 @@ body {
     display: flex;
     min-height: 100vh;
     font-family: consolas, menlo, helvetica, verdana;
+    overflow-x: hidden;
 }
 
 nav {
     background-color: rgb(32, 255, 188);
     height: 100vh;
-    position: fixed;
+    position: relative;
     left: 0;
     top: 0;
     bottom: 0;
@@ -19,6 +20,13 @@ nav {
 
     /*mobile*/
     width: 30%;
+
+    margin-top: -500px;
+    padding-top: calc(500px + env(safe-area-inset-top, 0));
+    
+    margin-bottom: -500px;
+    padding-bottom: calc(500px + env(safe-area-inset-top, 0));
+
 }
 
 .name_description {
