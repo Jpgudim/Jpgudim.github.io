@@ -6,6 +6,7 @@ body {
     min-height: 100vh;
     font-family: consolas, menlo, helvetica, verdana;
     overflow-x: hidden;
+    padding-top: env(safe-area-inset-top);
 }
 
 nav {
