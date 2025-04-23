@@ -11,23 +11,15 @@ body {
 
 nav {
     background-color: rgb(32, 255, 188);
-    height: 100vh;
     position: relative;
     left: 0;
     top: 0;
     bottom: 0;
-    padding-top: env(safe-area-inset-top);
-    padding-bottom: env(safe-area-inset-bottom);
+    padding-top: env(safe-area-inset-top, 0);
+    padding-bottom: env(safe-area-inset-bottom, 0);
 
     /*mobile*/
     width: 30%;
-
-    margin-top: -500px;
-    padding-top: calc(500px + env(safe-area-inset-top, 0));
-    
-    margin-bottom: -500px;
-    padding-bottom: calc(500px + env(safe-area-inset-top, 0));
-
 }
 
 .name_description {
