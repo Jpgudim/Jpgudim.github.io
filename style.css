@@ -2,6 +2,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: rgb(195, 195, 195);
+    background-color: #d3d3d3;
     display: flex;
     min-height: 100vh;
     font-family: consolas, menlo, helvetica, verdana;
