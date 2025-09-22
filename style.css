@@ -1,7 +1,6 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: rgb(195, 195, 195);
     background-color: #d3d3d3;
     display: flex;
     min-height: 100vh;
@@ -27,7 +26,6 @@ nav {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: rd;
     width: fit-content;
     margin: 0 auto;
 }
@@ -71,7 +69,7 @@ nav {
     height: 25px;
     font-size: 12px;
     line-height: 25px;
-    border: 2px, solid, black;
+    border: 2px solid black;
     margin-bottom: 30px;
 }
 
@@ -214,7 +212,7 @@ h2 {
         height: 38px;
         font-size: 18px;
         line-height: 38px;
-        border: 2px, solid, black;
+        border: 2px solid black;
         margin-bottom: 25px;
     }
 
